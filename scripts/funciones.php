@@ -6,7 +6,7 @@ function abrirConex()
 {
 	global $conexion;
 	// Conexión con el servidor de base de datos MySQL
-	$conexion = mysqli_connect('localhost', 'root', '', 'auditoria');
+	$conexion = mysqli_connect('us-cdbr-azure-southcentral-e.cloudapp.net', 'b03756a2f35aff', '429eb25d', 'auditoria');
 	mysqli_set_charset($conexion, 'utf8');
 }
 
